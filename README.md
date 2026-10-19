@@ -21,9 +21,7 @@ portfolio-alexandre/
 
 ## Mettre un site en ligne (GitHub Pages)
 
-1. Créer un dépôt GitHub et y envoyer le contenu du dossier (`index.html` à la racine du dépôt).
-2. Dans le dépôt : Settings, Pages, puis choisir la branche `main` et le dossier `/ (root)`.
-3. Le site est disponible à l’adresse affichée par GitHub
+Dans le dépôt : Settings, Pages, puis choisir la branche `main` et le dossier `/ (root)`.
 
 ## Compléter le site pendant le BUT
 
