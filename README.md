@@ -19,16 +19,6 @@ portfolio-alexandre/
 └── README.md
 ```
 
-## Voir le site en local
-
-Ouvre `index.html` dans un navigateur. Pour un rendu identique à un vrai hébergement, lance dans le dossier :
-
-```
-python3 -m http.server 8000
-```
-
-puis va sur http://localhost:8000.
-
 ## Mettre un site en ligne (GitHub Pages)
 
 1. Créer un dépôt GitHub et y envoyer le contenu du dossier (`index.html` à la racine du dépôt).
