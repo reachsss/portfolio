@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr" class="on-boot">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alexandre Antunes, portfolio BUT Informatique</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="boot">
+  <div class="gb">
+    <small>GNU GRUB  version 2.12</small>
+    <h1>Portfolio d’Alexandre Antunes</h1>
+    <p class="sub">BUT Informatique, IUT de Montpellier-Sète, 2026 – 2027</p>
+    <ul id="menu" role="menu"></ul>
+    <p class="hint">Utilise les touches ↑ et ↓ pour choisir une entrée, puis Entrée pour la démarrer. Sur mobile, touche une entrée.</p>
+    <pre id="log" hidden></pre>
+  </div>
+</div>
+<div id="site" hidden>
+  <header><div class="bar">
+    <button id="back" aria-label="Retour au menu GRUB">‹ GRUB</button>
+    <nav id="nav" aria-label="Rubriques"></nav>
+    <button id="theme" aria-label="Changer de thème">◐</button>
+  </div></header>
+  <main class="wrap"><div id="view"></div>
+    <p class="foot">Alexandre Antunes, BUT Informatique, IUT de Montpellier-Sète. Échap : retour au menu.</p>
+  </main>
+</div>
+<script src="js/data.js"></script>
+<script src="js/views.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
