@@ -29,19 +29,19 @@ python3 -m http.server 8000
 
 puis va sur http://localhost:8000.
 
-## Mettre le site en ligne (GitHub Pages)
+## Mettre un site en ligne (GitHub Pages)
 
-1. Crée un dépôt GitHub et envoie-y le contenu du dossier (`index.html` à la racine du dépôt).
-2. Dans le dépôt : Settings, Pages, puis choisis la branche `main` et le dossier `/ (root)`.
-3. Le site est disponible à l’adresse affichée par GitHub au bout d’une minute ou deux.
+1. Créer un dépôt GitHub et y envoyer le contenu du dossier (`index.html` à la racine du dépôt).
+2. Dans le dépôt : Settings, Pages, puis choisir la branche `main` et le dossier `/ (root)`.
+3. Le site est disponible à l’adresse affichée par GitHub
 
 ## Compléter le site pendant le BUT
 
-**Remplir un emplacement « À compléter »** : cherche `todo(` dans `js/data.js` et `js/views.js`, puis remplace le bloc par ton contenu.
+**Remplir un emplacement « À compléter »** : chercher `todo(` dans `js/data.js` et `js/views.js`, puis remplacer le bloc par le futur contenu.
 
-**Ajouter un projet** : dans `js/data.js`, copie le premier objet de `D.projets` (celui de la chatière), colle-le à la suite et remplace ses textes. Tous les projets gardent ainsi le même format.
+**Ajouter un projet** : dans `js/data.js`, copier le premier objet de `D.projets` (celui de la chatière), le coller à la suite et remplacer ses textes. Tous les projets garderont donc le même format.
 
-**Ajouter une image ou une vidéo** : dépose le fichier dans `assets/img/` ou `assets/video/`, puis insère dans le texte d’une rubrique (par exemple à la place d’un `todo(...)`) :
+**Ajouter une image ou une vidéo** : déposer le fichier dans `assets/img/` ou `assets/video/`, puis insèrer dans le texte d’une rubrique (par exemple à la place d’un `todo(...)`) :
 
 ```html
 <figure>
@@ -51,8 +51,8 @@ puis va sur http://localhost:8000.
 ```
 
 **Ajouter une rubrique** (par exemple « Compétences » ou « Veille technologique ») :
-1. Dans `js/data.js`, ajoute une entrée à `D.menu` : `{id:"competences",n:"Compétences",t:"Compétences"}`.
-2. Dans `js/views.js`, ajoute dans l’objet `V` une fonction du même nom, qui renvoie le HTML de la rubrique :
+1. Dans `js/data.js`, ajouter une entrée à `D.menu` : `{id:"competences",n:"Compétences",t:"Compétences"}`.
+2. Dans `js/views.js`, ajouter dans l’objet `V` une fonction du même nom, qui renvoie le HTML de la rubrique :
 
 ```js
 competences:()=>`<h1>Compétences</h1><p>Mon texte.</p>`,
@@ -60,9 +60,9 @@ competences:()=>`<h1>Compétences</h1><p>Mon texte.</p>`,
 
 La rubrique apparaît d’elle-même dans le menu GRUB et dans la barre de navigation.
 
-**Remplacer l’entrée « Advanced options for BUT 2 »** : dans `D.menu`, retire `soon:1` et donne-lui un `id`, un `n` et une fonction dans `V`.
+**Remplacer l’entrée « Advanced options for BUT 2 »** : dans `D.menu`, retirer `soon:1` et lui donner un `id`, un `n` et une fonction dans `V`.
 
-**Changer les couleurs** : modifie les variables au début de `css/style.css` (`--acc` pour l’orange, `--bg` et `--ink` pour le fond et le texte, `--g-*` pour l’écran GRUB).
+**Changer les couleurs** : modifier les variables au début de `css/style.css` (`--acc` pour l’orange, `--bg` et `--ink` pour le fond et le texte, `--g-*` pour l’écran GRUB).
 
 ## Raccourcis
 
